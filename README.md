@@ -78,55 +78,15 @@
 
 > The main files which are suceptible to be modified are the following: data_management_tools.py (to modify the fitness function or the penalty), mopso/moga_tools.py (to improve the optimisation algorithms), wells_clustering.py (to add a new clustering method or change the clustering parameters).
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
 
 ## Setup
-This project will work with MODFLOW 2000 or 2005 and GMS 10.4.7. We cannot ensure the well behaving of the code with other version because many files from MODFLOW and GMS are encrypted in bytes under a special format, and We are reading them manually and according to this format. If the structure of the binary files, output from MODFLOW and GMS came to a change It can deeply affect the code functionning.
+This project will work with GMS MODFLOW 2000 or 2005 and GMS 10.4.7. We cannot ensure the well behaving of the code with other version because many files from MODFLOW and GMS are encrypted in bytes under a special format, and We are reading them manually and according to this format. If the structure of the binary files, output from MODFLOW and GMS came to a change It can deeply affect the code functionning.
 
 Furthermore, It is required to keep the exact same architecture as It is described here. Otherwise, the different paths and pointers in the code will fail. 
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Project is:  / _complete_ 
 
 
